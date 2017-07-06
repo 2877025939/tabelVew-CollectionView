@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FBBD101EE7A5D40060C325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD0F1EE7A5D40060C325 /* main.m */; };
+		27FBBD131EE7A5D40060C325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD121EE7A5D40060C325 /* AppDelegate.m */; };
+		27FBBD191EE7A5D40060C325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FBBD171EE7A5D40060C325 /* Main.storyboard */; };
+		27FBBD1B1EE7A5D40060C325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FBBD1A1EE7A5D40060C325 /* Assets.xcassets */; };
+		27FBBD1E1EE7A5D40060C325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FBBD1C1EE7A5D40060C325 /* LaunchScreen.storyboard */; };
+		27FBBD291EE7A5D40060C325 /* tabelVew__CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD281EE7A5D40060C325 /* tabelVew__CollectionViewTests.m */; };
+		27FBBD341EE7A5D40060C325 /* tabelVew__CollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD331EE7A5D40060C325 /* tabelVew__CollectionViewUITests.m */; };
+		27FBBD591EE7DF100060C325 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD581EE7DF100060C325 /* ViewController1.m */; };
+		27FBBD611EEA71C00060C325 /* HomeTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD601EEA71C00060C325 /* HomeTitle.m */; };
+		27FBBD801EEA73E40060C325 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD661EEA73E40060C325 /* MASCompositeConstraint.m */; };
+		27FBBD811EEA73E40060C325 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD691EEA73E40060C325 /* MASConstraint.m */; };
+		27FBBD821EEA73E40060C325 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD6B1EEA73E40060C325 /* MASConstraintMaker.m */; };
+		27FBBD831EEA73E40060C325 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD6D1EEA73E40060C325 /* MASLayoutConstraint.m */; };
+		27FBBD841EEA73E40060C325 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD711EEA73E40060C325 /* MASViewAttribute.m */; };
+		27FBBD851EEA73E40060C325 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD731EEA73E40060C325 /* MASViewConstraint.m */; };
+		27FBBD861EEA73E40060C325 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD751EEA73E40060C325 /* NSArray+MASAdditions.m */; };
+		27FBBD871EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD781EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		27FBBD881EEA73E40060C325 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD7A1EEA73E40060C325 /* View+MASAdditions.m */; };
+		27FBBD891EEA73E40060C325 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD7D1EEA73E40060C325 /* ViewController+MASAdditions.m */; };
+		27FBBD8E1EEA77F70060C325 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD8C1EEA77F70060C325 /* HomeTableViewCell.m */; };
+		27FBBD8F1EEA77F70060C325 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FBBD8D1EEA77F70060C325 /* HomeTableViewCell.xib */; };
+		27FBBD9D1EEA79350060C325 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD9C1EEA79350060C325 /* HomeViewController.m */; };
+		27FDC7D11F0E381D0016D57C /* HomeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7CF1F0E381D0016D57C /* HomeCollectionCell.m */; };
+		27FDC7D21F0E381D0016D57C /* HomeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FDC7D01F0E381D0016D57C /* HomeCollectionCell.xib */; };
+		27FDC7D41F0E3BA40016D57C /* MyTask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDC7D31F0E3BA40016D57C /* MyTask@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27FBBD251EE7A5D40060C325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FBBD031EE7A5D40060C325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FBBD0A1EE7A5D40060C325;
+			remoteInfo = "tabelVew嵌套CollectionView";
+		};
+		27FBBD301EE7A5D40060C325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FBBD031EE7A5D40060C325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FBBD0A1EE7A5D40060C325;
+			remoteInfo = "tabelVew嵌套CollectionView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27FBBD0B1EE7A5D40060C325 /* tabelVew嵌套CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabelVew嵌套CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FBBD0F1EE7A5D40060C325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27FBBD111EE7A5D40060C325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27FBBD121EE7A5D40060C325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27FBBD181EE7A5D40060C325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27FBBD1A1EE7A5D40060C325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27FBBD1D1EE7A5D40060C325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27FBBD1F1EE7A5D40060C325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FBBD241EE7A5D40060C325 /* tabelVew嵌套CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabelVew嵌套CollectionViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FBBD281EE7A5D40060C325 /* tabelVew__CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabelVew__CollectionViewTests.m; sourceTree = "<group>"; };
+		27FBBD2A1EE7A5D40060C325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FBBD2F1EE7A5D40060C325 /* tabelVew嵌套CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabelVew嵌套CollectionViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FBBD331EE7A5D40060C325 /* tabelVew__CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabelVew__CollectionViewUITests.m; sourceTree = "<group>"; };
+		27FBBD351EE7A5D40060C325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FBBD571EE7DF100060C325 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		27FBBD581EE7DF100060C325 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		27FBBD5F1EEA71C00060C325 /* HomeTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTitle.h; sourceTree = "<group>"; };
+		27FBBD601EEA71C00060C325 /* HomeTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTitle.m; sourceTree = "<group>"; };
+		27FBBD651EEA73E40060C325 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		27FBBD661EEA73E40060C325 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		27FBBD671EEA73E40060C325 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		27FBBD681EEA73E40060C325 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		27FBBD691EEA73E40060C325 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		27FBBD6A1EEA73E40060C325 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		27FBBD6B1EEA73E40060C325 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		27FBBD6C1EEA73E40060C325 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		27FBBD6D1EEA73E40060C325 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		27FBBD6E1EEA73E40060C325 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		27FBBD6F1EEA73E40060C325 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		27FBBD701EEA73E40060C325 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		27FBBD711EEA73E40060C325 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		27FBBD721EEA73E40060C325 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		27FBBD731EEA73E40060C325 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		27FBBD741EEA73E40060C325 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		27FBBD751EEA73E40060C325 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		27FBBD761EEA73E40060C325 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		27FBBD771EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		27FBBD781EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		27FBBD791EEA73E40060C325 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		27FBBD7A1EEA73E40060C325 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		27FBBD7B1EEA73E40060C325 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		27FBBD7C1EEA73E40060C325 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		27FBBD7D1EEA73E40060C325 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		27FBBD8B1EEA77F70060C325 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		27FBBD8C1EEA77F70060C325 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		27FBBD8D1EEA77F70060C325 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		27FBBD9B1EEA79350060C325 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		27FBBD9C1EEA79350060C325 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		27FDC7CE1F0E381D0016D57C /* HomeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionCell.h; sourceTree = "<group>"; };
+		27FDC7CF1F0E381D0016D57C /* HomeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionCell.m; sourceTree = "<group>"; };
+		27FDC7D01F0E381D0016D57C /* HomeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionCell.xib; sourceTree = "<group>"; };
+		27FDC7D31F0E3BA40016D57C /* MyTask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyTask@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FBBD081EE7A5D40060C325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FBBD211EE7A5D40060C325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FBBD2C1EE7A5D40060C325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FBBD021EE7A5D40060C325 = {
+			isa = PBXGroup;
+			children = (
+				27FBBD0D1EE7A5D40060C325 /* tabelVew嵌套CollectionView */,
+				27FBBD271EE7A5D40060C325 /* tabelVew嵌套CollectionViewTests */,
+				27FBBD321EE7A5D40060C325 /* tabelVew嵌套CollectionViewUITests */,
+				27FBBD0C1EE7A5D40060C325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27FBBD0C1EE7A5D40060C325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FBBD0B1EE7A5D40060C325 /* tabelVew嵌套CollectionView.app */,
+				27FBBD241EE7A5D40060C325 /* tabelVew嵌套CollectionViewTests.xctest */,
+				27FBBD2F1EE7A5D40060C325 /* tabelVew嵌套CollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FBBD0D1EE7A5D40060C325 /* tabelVew嵌套CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				27FBBD111EE7A5D40060C325 /* AppDelegate.h */,
+				27FBBD121EE7A5D40060C325 /* AppDelegate.m */,
+				27FBBD9B1EEA79350060C325 /* HomeViewController.h */,
+				27FBBD9C1EEA79350060C325 /* HomeViewController.m */,
+				27FBBD5F1EEA71C00060C325 /* HomeTitle.h */,
+				27FBBD601EEA71C00060C325 /* HomeTitle.m */,
+				27FBBD8B1EEA77F70060C325 /* HomeTableViewCell.h */,
+				27FBBD8C1EEA77F70060C325 /* HomeTableViewCell.m */,
+				27FBBD8D1EEA77F70060C325 /* HomeTableViewCell.xib */,
+				27FBBD571EE7DF100060C325 /* ViewController1.h */,
+				27FBBD581EE7DF100060C325 /* ViewController1.m */,
+				27FDC7CE1F0E381D0016D57C /* HomeCollectionCell.h */,
+				27FDC7CF1F0E381D0016D57C /* HomeCollectionCell.m */,
+				27FDC7D01F0E381D0016D57C /* HomeCollectionCell.xib */,
+				27FBBD641EEA73E40060C325 /* Masonry */,
+				27FBBD171EE7A5D40060C325 /* Main.storyboard */,
+				27FDC7D31F0E3BA40016D57C /* MyTask@2x.png */,
+				27FBBD1A1EE7A5D40060C325 /* Assets.xcassets */,
+				27FBBD1C1EE7A5D40060C325 /* LaunchScreen.storyboard */,
+				27FBBD1F1EE7A5D40060C325 /* Info.plist */,
+				27FBBD0E1EE7A5D40060C325 /* Supporting Files */,
+			);
+			path = "tabelVew嵌套CollectionView";
+			sourceTree = "<group>";
+		};
+		27FBBD0E1EE7A5D40060C325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FBBD0F1EE7A5D40060C325 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27FBBD271EE7A5D40060C325 /* tabelVew嵌套CollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				27FBBD281EE7A5D40060C325 /* tabelVew__CollectionViewTests.m */,
+				27FBBD2A1EE7A5D40060C325 /* Info.plist */,
+			);
+			path = "tabelVew嵌套CollectionViewTests";
+			sourceTree = "<group>";
+		};
+		27FBBD321EE7A5D40060C325 /* tabelVew嵌套CollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27FBBD331EE7A5D40060C325 /* tabelVew__CollectionViewUITests.m */,
+				27FBBD351EE7A5D40060C325 /* Info.plist */,
+			);
+			path = "tabelVew嵌套CollectionViewUITests";
+			sourceTree = "<group>";
+		};
+		27FBBD641EEA73E40060C325 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				27FBBD651EEA73E40060C325 /* MASCompositeConstraint.h */,
+				27FBBD661EEA73E40060C325 /* MASCompositeConstraint.m */,
+				27FBBD671EEA73E40060C325 /* MASConstraint+Private.h */,
+				27FBBD681EEA73E40060C325 /* MASConstraint.h */,
+				27FBBD691EEA73E40060C325 /* MASConstraint.m */,
+				27FBBD6A1EEA73E40060C325 /* MASConstraintMaker.h */,
+				27FBBD6B1EEA73E40060C325 /* MASConstraintMaker.m */,
+				27FBBD6C1EEA73E40060C325 /* MASLayoutConstraint.h */,
+				27FBBD6D1EEA73E40060C325 /* MASLayoutConstraint.m */,
+				27FBBD6E1EEA73E40060C325 /* Masonry.h */,
+				27FBBD6F1EEA73E40060C325 /* MASUtilities.h */,
+				27FBBD701EEA73E40060C325 /* MASViewAttribute.h */,
+				27FBBD711EEA73E40060C325 /* MASViewAttribute.m */,
+				27FBBD721EEA73E40060C325 /* MASViewConstraint.h */,
+				27FBBD731EEA73E40060C325 /* MASViewConstraint.m */,
+				27FBBD741EEA73E40060C325 /* NSArray+MASAdditions.h */,
+				27FBBD751EEA73E40060C325 /* NSArray+MASAdditions.m */,
+				27FBBD761EEA73E40060C325 /* NSArray+MASShorthandAdditions.h */,
+				27FBBD771EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				27FBBD781EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				27FBBD791EEA73E40060C325 /* View+MASAdditions.h */,
+				27FBBD7A1EEA73E40060C325 /* View+MASAdditions.m */,
+				27FBBD7B1EEA73E40060C325 /* View+MASShorthandAdditions.h */,
+				27FBBD7C1EEA73E40060C325 /* ViewController+MASAdditions.h */,
+				27FBBD7D1EEA73E40060C325 /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			path = Masonry/Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FBBD0A1EE7A5D40060C325 /* tabelVew嵌套CollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FBBD381EE7A5D40060C325 /* Build configuration list for PBXNativeTarget "tabelVew嵌套CollectionView" */;
+			buildPhases = (
+				27FBBD071EE7A5D40060C325 /* Sources */,
+				27FBBD081EE7A5D40060C325 /* Frameworks */,
+				27FBBD091EE7A5D40060C325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tabelVew嵌套CollectionView";
+			productName = "tabelVew嵌套CollectionView";
+			productReference = 27FBBD0B1EE7A5D40060C325 /* tabelVew嵌套CollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27FBBD231EE7A5D40060C325 /* tabelVew嵌套CollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FBBD3B1EE7A5D40060C325 /* Build configuration list for PBXNativeTarget "tabelVew嵌套CollectionViewTests" */;
+			buildPhases = (
+				27FBBD201EE7A5D40060C325 /* Sources */,
+				27FBBD211EE7A5D40060C325 /* Frameworks */,
+				27FBBD221EE7A5D40060C325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FBBD261EE7A5D40060C325 /* PBXTargetDependency */,
+			);
+			name = "tabelVew嵌套CollectionViewTests";
+			productName = "tabelVew嵌套CollectionViewTests";
+			productReference = 27FBBD241EE7A5D40060C325 /* tabelVew嵌套CollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27FBBD2E1EE7A5D40060C325 /* tabelVew嵌套CollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FBBD3E1EE7A5D40060C325 /* Build configuration list for PBXNativeTarget "tabelVew嵌套CollectionViewUITests" */;
+			buildPhases = (
+				27FBBD2B1EE7A5D40060C325 /* Sources */,
+				27FBBD2C1EE7A5D40060C325 /* Frameworks */,
+				27FBBD2D1EE7A5D40060C325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FBBD311EE7A5D40060C325 /* PBXTargetDependency */,
+			);
+			name = "tabelVew嵌套CollectionViewUITests";
+			productName = "tabelVew嵌套CollectionViewUITests";
+			productReference = 27FBBD2F1EE7A5D40060C325 /* tabelVew嵌套CollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FBBD031EE7A5D40060C325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Plan;
+				TargetAttributes = {
+					27FBBD0A1EE7A5D40060C325 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = HWQF636ATC;
+						ProvisioningStyle = Automatic;
+					};
+					27FBBD231EE7A5D40060C325 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = HWQF636ATC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27FBBD0A1EE7A5D40060C325;
+					};
+					27FBBD2E1EE7A5D40060C325 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = HWQF636ATC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27FBBD0A1EE7A5D40060C325;
+					};
+				};
+			};
+			buildConfigurationList = 27FBBD061EE7A5D40060C325 /* Build configuration list for PBXProject "tabelVew嵌套CollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27FBBD021EE7A5D40060C325;
+			productRefGroup = 27FBBD0C1EE7A5D40060C325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FBBD0A1EE7A5D40060C325 /* tabelVew嵌套CollectionView */,
+				27FBBD231EE7A5D40060C325 /* tabelVew嵌套CollectionViewTests */,
+				27FBBD2E1EE7A5D40060C325 /* tabelVew嵌套CollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FBBD091EE7A5D40060C325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FBBD8F1EEA77F70060C325 /* HomeTableViewCell.xib in Resources */,
+				27FBBD1E1EE7A5D40060C325 /* LaunchScreen.storyboard in Resources */,
+				27FDC7D21F0E381D0016D57C /* HomeCollectionCell.xib in Resources */,
+				27FBBD1B1EE7A5D40060C325 /* Assets.xcassets in Resources */,
+				27FBBD191EE7A5D40060C325 /* Main.storyboard in Resources */,
+				27FDC7D41F0E3BA40016D57C /* MyTask@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FBBD221EE7A5D40060C325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FBBD2D1EE7A5D40060C325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FBBD071EE7A5D40060C325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FDC7D11F0E381D0016D57C /* HomeCollectionCell.m in Sources */,
+				27FBBD851EEA73E40060C325 /* MASViewConstraint.m in Sources */,
+				27FBBD8E1EEA77F70060C325 /* HomeTableViewCell.m in Sources */,
+				27FBBD841EEA73E40060C325 /* MASViewAttribute.m in Sources */,
+				27FBBD9D1EEA79350060C325 /* HomeViewController.m in Sources */,
+				27FBBD611EEA71C00060C325 /* HomeTitle.m in Sources */,
+				27FBBD801EEA73E40060C325 /* MASCompositeConstraint.m in Sources */,
+				27FBBD821EEA73E40060C325 /* MASConstraintMaker.m in Sources */,
+				27FBBD881EEA73E40060C325 /* View+MASAdditions.m in Sources */,
+				27FBBD831EEA73E40060C325 /* MASLayoutConstraint.m in Sources */,
+				27FBBD891EEA73E40060C325 /* ViewController+MASAdditions.m in Sources */,
+				27FBBD811EEA73E40060C325 /* MASConstraint.m in Sources */,
+				27FBBD131EE7A5D40060C325 /* AppDelegate.m in Sources */,
+				27FBBD591EE7DF100060C325 /* ViewController1.m in Sources */,
+				27FBBD861EEA73E40060C325 /* NSArray+MASAdditions.m in Sources */,
+				27FBBD871EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				27FBBD101EE7A5D40060C325 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FBBD201EE7A5D40060C325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FBBD291EE7A5D40060C325 /* tabelVew__CollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FBBD2B1EE7A5D40060C325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FBBD341EE7A5D40060C325 /* tabelVew__CollectionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27FBBD261EE7A5D40060C325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FBBD0A1EE7A5D40060C325 /* tabelVew嵌套CollectionView */;
+			targetProxy = 27FBBD251EE7A5D40060C325 /* PBXContainerItemProxy */;
+		};
+		27FBBD311EE7A5D40060C325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FBBD0A1EE7A5D40060C325 /* tabelVew嵌套CollectionView */;
+			targetProxy = 27FBBD301EE7A5D40060C325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27FBBD171EE7A5D40060C325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FBBD181EE7A5D40060C325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27FBBD1C1EE7A5D40060C325 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FBBD1D1EE7A5D40060C325 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27FBBD361EE7A5D40060C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27FBBD371EE7A5D40060C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27FBBD391EE7A5D40060C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWQF636ATC;
+				INFOPLIST_FILE = "tabelVew嵌套CollectionView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.tabelVew--CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27FBBD3A1EE7A5D40060C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWQF636ATC;
+				INFOPLIST_FILE = "tabelVew嵌套CollectionView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.tabelVew--CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27FBBD3C1EE7A5D40060C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HWQF636ATC;
+				INFOPLIST_FILE = "tabelVew嵌套CollectionViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.tabelVew--CollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabelVew嵌套CollectionView.app/tabelVew嵌套CollectionView";
+			};
+			name = Debug;
+		};
+		27FBBD3D1EE7A5D40060C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HWQF636ATC;
+				INFOPLIST_FILE = "tabelVew嵌套CollectionViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.tabelVew--CollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabelVew嵌套CollectionView.app/tabelVew嵌套CollectionView";
+			};
+			name = Release;
+		};
+		27FBBD3F1EE7A5D40060C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HWQF636ATC;
+				INFOPLIST_FILE = "tabelVew嵌套CollectionViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.tabelVew--CollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tabelVew嵌套CollectionView";
+			};
+			name = Debug;
+		};
+		27FBBD401EE7A5D40060C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HWQF636ATC;
+				INFOPLIST_FILE = "tabelVew嵌套CollectionViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.tabelVew--CollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tabelVew嵌套CollectionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FBBD061EE7A5D40060C325 /* Build configuration list for PBXProject "tabelVew嵌套CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FBBD361EE7A5D40060C325 /* Debug */,
+				27FBBD371EE7A5D40060C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FBBD381EE7A5D40060C325 /* Build configuration list for PBXNativeTarget "tabelVew嵌套CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FBBD391EE7A5D40060C325 /* Debug */,
+				27FBBD3A1EE7A5D40060C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FBBD3B1EE7A5D40060C325 /* Build configuration list for PBXNativeTarget "tabelVew嵌套CollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FBBD3C1EE7A5D40060C325 /* Debug */,
+				27FBBD3D1EE7A5D40060C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FBBD3E1EE7A5D40060C325 /* Build configuration list for PBXNativeTarget "tabelVew嵌套CollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FBBD3F1EE7A5D40060C325 /* Debug */,
+				27FBBD401EE7A5D40060C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FBBD031EE7A5D40060C325 /* Project object */;
+}
