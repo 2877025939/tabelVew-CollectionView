@@ -134,8 +134,11 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
-    
-    if (scrollView.contentOffset.y  >=64) {
+    if (scrollView.contentOffset.y  < 0) {
+        
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+        
+    }else if (scrollView.contentOffset.y  >=64) {
 
         _homeTitle.backgroundColor = [UIColor whiteColor];
         _homeTitle.titleLable.textColor = [UIColor blackColor];
