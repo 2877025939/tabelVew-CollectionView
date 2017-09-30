@@ -33,14 +33,15 @@
     
     [self.mine mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self).offset(10);
-        make.top.equalTo(self).offset(20);
+        make.bottom.equalTo(self).offset(0);
         make.size.mas_equalTo(CGSizeMake(44, 44));
         
     }];
     
     [self.titleLable mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self).offset(20);
-        make.left.right.bottom.equalTo(self);
+        make.bottom.equalTo(self).offset(0);
+        make.centerX.equalTo(self);
+        make.size.mas_equalTo(CGSizeMake(100, 44));
     }];
     
     

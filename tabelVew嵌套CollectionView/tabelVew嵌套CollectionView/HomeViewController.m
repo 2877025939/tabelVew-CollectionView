@@ -8,6 +8,10 @@
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
+#define Height (IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height-20):([[UIScreen mainScreen] bounds].size.height))
+#define NavHeight (IS_IPHONEX ? (88):(64))
 #import "HomeViewController.h"
 #import "HomeTableViewCell.h"
 #import "ViewController1.h"
@@ -32,11 +36,15 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.automaticallyAdjustsScrollViewInsets=NO;
-
     [self.view addSubview:self.tableView];
     
-    _homeTitle = [[HomeTitle alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 64)];
+    if (@available(iOS 11.0, *)) {
+        self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO; }
+    
+    _homeTitle = [[HomeTitle alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, NavHeight)];
     
     [self.view addSubview:_homeTitle];
     
