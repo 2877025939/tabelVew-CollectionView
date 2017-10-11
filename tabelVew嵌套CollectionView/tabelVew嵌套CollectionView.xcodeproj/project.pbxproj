@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2700347D1F67820E0045A97D /* GlidePathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2700347C1F67820E0045A97D /* GlidePathView.m */; };
 		27FBBD101EE7A5D40060C325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD0F1EE7A5D40060C325 /* main.m */; };
 		27FBBD131EE7A5D40060C325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBBD121EE7A5D40060C325 /* AppDelegate.m */; };
 		27FBBD191EE7A5D40060C325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FBBD171EE7A5D40060C325 /* Main.storyboard */; };
@@ -53,8 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2700347B1F67820E0045A97D /* GlidePathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlidePathView.h; sourceTree = "<group>"; };
-		2700347C1F67820E0045A97D /* GlidePathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlidePathView.m; sourceTree = "<group>"; };
+		27AFF4991F8E423300BC3D1C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		27FBBD0B1EE7A5D40060C325 /* tabelVew嵌套CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabelVew嵌套CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FBBD0F1EE7A5D40060C325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27FBBD111EE7A5D40060C325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,8 +157,6 @@
 			children = (
 				27FBBD111EE7A5D40060C325 /* AppDelegate.h */,
 				27FBBD121EE7A5D40060C325 /* AppDelegate.m */,
-				2700347B1F67820E0045A97D /* GlidePathView.h */,
-				2700347C1F67820E0045A97D /* GlidePathView.m */,
 				27FBBD9B1EEA79350060C325 /* HomeViewController.h */,
 				27FBBD9C1EEA79350060C325 /* HomeViewController.m */,
 				27FBBD5F1EEA71C00060C325 /* HomeTitle.h */,
@@ -180,6 +176,7 @@
 				27FBBD1C1EE7A5D40060C325 /* LaunchScreen.storyboard */,
 				27FBBD1F1EE7A5D40060C325 /* Info.plist */,
 				27FBBD0E1EE7A5D40060C325 /* Supporting Files */,
+				27AFF4991F8E423300BC3D1C /* Header.h */,
 			);
 			path = "tabelVew嵌套CollectionView";
 			sourceTree = "<group>";
@@ -399,7 +396,6 @@
 				27FBBD861EEA73E40060C325 /* NSArray+MASAdditions.m in Sources */,
 				27FBBD871EEA73E40060C325 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				27FBBD101EE7A5D40060C325 /* main.m in Sources */,
-				2700347D1F67820E0045A97D /* GlidePathView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,16 +6,12 @@
 //  Copyright © 2017年 Plan. All rights reserved.
 //
 
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-#define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
-#define Height (IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height-20):([[UIScreen mainScreen] bounds].size.height))
-#define NavHeight (IS_IPHONEX ? (88):(64))
 #import "HomeViewController.h"
 #import "HomeTableViewCell.h"
 #import "ViewController1.h"
 #import "HomeTitle.h"
+#import "Header.h"
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource,CustomCollectionDelegate>
 
 @property(nonatomic,strong)UITableView *tableView;
@@ -38,6 +34,20 @@
     
     [self.view addSubview:self.tableView];
     
+    /*
+     
+     这里Xcode8打开，会报错 ，可以注释这几行代码
+     
+     Xcode9使用正常，因为Xcode9才有iOS 11啊
+     
+     
+     if (@available(iOS 11.0, *)) {
+     self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+     
+     } else {
+     self.automaticallyAdjustsScrollViewInsets = NO; }
+     
+     */
     if (@available(iOS 11.0, *)) {
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         
