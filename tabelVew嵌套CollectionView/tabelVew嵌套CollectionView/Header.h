@@ -13,9 +13,7 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
-#define Height (IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height-20):([[UIScreen mainScreen] bounds].size.height))
+#define Height (IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height-34):([[UIScreen mainScreen] bounds].size.height))
 #define NavHeight (IS_IPHONEX ? (88):(64))
-
-
 
 #endif /* Header_h */

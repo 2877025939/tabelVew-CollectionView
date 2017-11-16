@@ -12,6 +12,7 @@
 #import "ViewController1.h"
 #import "HomeTitle.h"
 #import "Header.h"
+#import "Masonry.h"
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource,CustomCollectionDelegate>
 
 @property(nonatomic,strong)UITableView *tableView;
@@ -33,7 +34,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:self.tableView];
-    
+
     /*
      
      这里Xcode8打开，会报错 ，可以注释这几行代码
@@ -52,7 +53,19 @@
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         
     } else {
-        self.automaticallyAdjustsScrollViewInsets = NO; }
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    
+   
+    
+//    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        if (@available(iOS 11.0, *)) {
+//             make.edges.mas_equalTo(self.view.safeAreaInsets);
+//        }else{
+//             make.edges.mas_equalTo(self.view);
+//        }
+//
+//    }];
     
     _homeTitle = [[HomeTitle alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, NavHeight)];
     
@@ -156,17 +169,18 @@
         
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
         
-    }else if (scrollView.contentOffset.y  >=64) {
+    }else if (scrollView.contentOffset.y  >=100) {
 
         _homeTitle.backgroundColor = [UIColor whiteColor];
         _homeTitle.titleLable.textColor = [UIColor blackColor];
         _homeTitle.line.backgroundColor = [UIColor blackColor];
         [_homeTitle.mine setImage:[UIImage imageNamed:@"1111"] forState:UIControlStateNormal] ;
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
-    
+        
+        
         
     } else{
-        
+        //_homeTitle.alpha=scrollView.contentOffset.y/100.0;
         _homeTitle.backgroundColor = [UIColor clearColor];
         _homeTitle.titleLable.textColor = [UIColor whiteColor];
         _homeTitle.line.backgroundColor = [UIColor clearColor];
@@ -205,7 +219,7 @@
 -(UITableView *)tableView{
     
     if (!_tableView) {
-        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0 , SCREEN_WIDTH, SCREEN_HEIGHT)];
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0 , SCREEN_WIDTH, Height)];
         _tableView.backgroundColor =[UIColor whiteColor];
         _tableView.dataSource =self;
         _tableView.delegate = self;
@@ -217,6 +231,7 @@
         UIImageView *headerView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200)];
         headerView.image = [UIImage imageNamed:@"风景1.jpg"];
         _tableView.tableHeaderView = headerView;
+
         
         [_tableView reloadData];
     }
