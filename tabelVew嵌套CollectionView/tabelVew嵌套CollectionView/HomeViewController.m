@@ -15,10 +15,10 @@
 #import "Masonry.h"
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource,CustomCollectionDelegate>
 
-@property(nonatomic,strong)UITableView *tableView;
-@property(nonatomic,strong)NSMutableArray *dataArray;
-@property(nonatomic,strong)NSArray *array1;
-@property (nonatomic,strong)HomeTitle *homeTitle;
+@property (nonatomic,strong) UITableView *tableView;
+@property (nonatomic,strong) NSMutableArray *dataArray;
+@property (nonatomic,strong) NSArray *array1;
+@property (nonatomic,strong) HomeTitle *homeTitle;
 @end
 
 @implementation HomeViewController

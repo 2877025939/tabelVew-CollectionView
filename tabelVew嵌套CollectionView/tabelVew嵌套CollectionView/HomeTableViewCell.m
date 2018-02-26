@@ -16,18 +16,12 @@
 
 @interface HomeTableViewCell () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
-
-
 @end
 
 @implementation HomeTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    
-    
-    
-    
 }
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -85,8 +79,7 @@
         
         self.collectionView.frame = CGRectMake(0 , 35, SCREEN_WIDTH , SCREEN_WIDTH*3/4 );
     }
-    
-    
+
 }
 
 
@@ -104,7 +97,6 @@
     cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.text = self.collectDataArray[indexPath.row];
     cell.imageView.image = [UIImage imageNamed:@"MyTask@2x"];
-    
     return cell;
 }
 
@@ -114,7 +106,6 @@
     NSLog(@"点击了 %ld ", indexPath.row);
     
     if([self.delegate respondsToSelector:@selector(CustomCollection:didSelectRowAtIndexPath:str:)]){
-        
         [self.delegate CustomCollection:collectionView didSelectRowAtIndexPath:indexPath str:self.collectDataArray[indexPath.row]];
     }
     

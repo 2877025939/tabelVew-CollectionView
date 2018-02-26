@@ -16,11 +16,10 @@
 @interface HomeTableViewCell : UITableViewCell
 
 @property (nonatomic, assign) id<CustomCollectionDelegate> delegate;
-
-@property (nonatomic,strong)UILabel *headLable;
-@property (nonatomic,strong)UICollectionView *collectionView;
-@property (nonatomic,strong)NSArray *collectDataArray;
-@property (nonatomic,strong)NSString *headText;
+@property (nonatomic,strong) UILabel *headLable;
+@property (nonatomic,strong) UICollectionView *collectionView;
+@property (nonatomic,strong) NSArray *collectDataArray;
+@property (nonatomic,copy) NSString *headText;
 
 
 @end
